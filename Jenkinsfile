@@ -174,10 +174,6 @@ node(buildnode){
         throw e
     }
 }
-  ---------------------
-      docker pull kubeflowkatib/pytorch-mnist:v1beta1-45c5727
 
-docker tag kubeflowkatib/pytorch-mnist:v1beta1-45c5727 deopcard.corp.hkjc.com:443/ai-dsw-docker-release-local/kubeflowkatib/pytorch-mnist:v1beta1-45c5727
 
-docker push deopcard.corp.hkjc.com:443/ai-dsw-docker-release-local/kubeflowkatib/pytorch-mnist:v1beta1-45c5727
 
